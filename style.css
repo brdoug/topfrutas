@@ -1,0 +1,289 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/imagens/background2.jpg) no-repeat center center/cover;
+}
+
+/* ---------------------------------------------- NAVBAR ---------------------------------------------- */
+
+#containertop{
+    color: #fff;
+    width: 90%;
+    margin-top: 10px;
+    border-top: 4px solid #eee;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    background-color: rgba(87, 87, 87, 0.300);
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-around;*/
+    width: 100%;
+    /*padding: 8px 0;*/
+    /*border-bottom: 3px dashed #eee;
+    position: fixed;*/
+}
+header a{
+    text-decoration: none;
+    color: #eee;
+}
+header img{
+    /*border: 1px solid #eee;*/
+    border-radius: 0.7em;
+    /*background: rgba(255, 255, 255, 0);*/
+    /*box-shadow: 2px 3px 19px -2px rgba(255, 255, 255, 0.75);*/
+    margin-left: 20px;
+    /*padding: 0 10px;*/
+    width: 250px;
+    height: 100px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin-top: 14px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header ul li {
+    padding: 0 14px;
+    /*margin-left: 8px;
+    border: 1px dotted #e4e2e2;
+    border-radius: 1em;*/
+}
+
+#menu1{
+    float: left;
+    /*margin-right: 1000px;*/
+}
+#menu2{
+    float: right;
+    /*margin-left: 1000px;*/
+}
+#search{
+    color: #ffffff;
+    background-color: rgba(99, 99, 99, 0.185);
+    height: 32px;
+    width: 200px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+    border-radius: 0.5em;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#search img{
+    /*border: 1px solid #fff;*/
+    background: #96969600;
+    border-radius: 0.4em;
+    float: right;
+    margin-right: 2px;
+    margin-top: 2px;
+    width: 26px;
+    height: 26px;
+    padding: 3px;
+}
+
+/* ---------------------------------------------- CONTEÚDO ---------------------------------------------- */
+
+#container{
+    width: 90%;
+    border: 2px solid #e2e4e2;
+    background-color: #fff;
+}
+
+content{
+    font-family: sans-serif;
+    /*padding-top: 500px;*/
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+#colunas{
+    height: 655px;
+    background: rgba(240, 240, 240);
+    margin: 18px 20px 0 20px;
+    border-radius: 1em;
+}
+#colunas2{
+    height: 370px;
+    background: rgb(240, 240, 240);
+    margin: 10px 20px 33px 20px;
+    border-radius: 1em;
+}
+#colunas h3{
+    text-align: center;
+    background-color: rgb(215, 215, 215);
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+#colunas2 h3{
+    text-align: center;
+    background-color: rgb(215, 215, 215);
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+.coluna{
+    width: 33.3333333%;
+    float: left;
+    /*margin: 0 0 20px 0;*/
+    background: rgba(238, 238, 238, 0);
+    text-align: center;
+    padding: 10px 4px;
+    /*text-align: justify;
+    border: 3px solid #90c0e7*/
+}
+.coluna img{
+    width: 350px;
+    height: 250px;
+    margin-top: 17px;
+    border: 1px dotted rgb(119, 118, 118);
+}
+
+.full{
+    clear:both;
+    width: 96.7%;
+    text-align: justify;
+    /*margin: 0 auto;*/
+    /*margin-top: 20px;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px dotted rgb(200, 200, 200);
+    border-radius: 1em;
+    /*border: 1px dotted #d1d1d1;*/
+}
+.full p{
+    margin: 10px;
+}
+/*
+.full img{
+    border-radius: 1em;
+}
+
+.full h1{
+    /*text-align: center;
+    padding: 60px 20px 30px 0;
+}
+.full h3{
+    padding-top: 60px;
+}
+*/
+.full h4{
+    /*text-align: center;*/
+    background-color: rgba(102, 102, 102, 0.103);
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+    margin-bottom: 20px;
+}
+.full h5{
+    margin-top: 40px;
+    text-align: center;
+    border: 1px solid rgb(20, 103, 212);
+    border-radius: 0.5em;
+    /*background-color: rgb(220, 220, 220);*/
+    margin-left: 700px;
+    margin-right: 300px;
+}
+.full h5 a{
+    text-decoration: none;
+}
+.full img{
+    float: left;
+    width: 400px;
+    height: 312px;
+    padding-right: 20px;
+    border-radius: 0.5em;
+    /*padding-top: 50px;
+    padding-top: 20px;*/
+}
+.algomais{
+    width: 95%;
+    height: 280px;
+    padding: 0 6px 410px 6px;
+    /*height: 200px;*/
+    background-color: rgb(235, 235, 235);
+    /*border: 1px dotted #666;*/
+    border-radius: 1em;
+    margin-bottom: 25px;
+}
+.algomais h3{
+    background-color: #e2e4e2;
+    text-align: center;
+    color: #fff;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+/* ---------------------------------------------- RODAPÉ ---------------------------------------------- */
+
+#containerbot{
+    width: 90%;
+    margin-bottom: 10px;
+    border-bottom: 4px solid #eee;
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    background-color: rgba(87, 87, 87, 0.300);
+}
+#rodape{
+    color: #eee;
+    clear:both;
+    text-align: center;
+    padding: 10px 80px;
+    display: flex;
+    background-color: #a8a9aa00;
+}
+#rodape a{
+    text-decoration: none;
+    color: #fff;
+}
+.colrodape{
+    width: 50%;
+    background-color: #a8a9aa00;
+    float: left;
+    border-radius: 0.5em;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.icon{
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fullrodape{
+    color: rgba(238, 238, 238, 0.548);
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto 10px auto;
+    border-top: 1px solid rgba(238, 238, 238, 0.144);
+}
+.fullrodape a{
+    text-decoration: none;
+    color: #fff;
+}
+/* -------------------------------------------- BOTAO TOPO -------------------------------------------- */
+
+.topo {
+    background-color: rgba(87, 87, 87, 0.164);
+    border: 2px solid rgba(255, 255, 255, 0.164);
+    text-decoration: none;
+    border-radius: 40px;
+    bottom: 40px;
+    box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+    color: #eee;
+    position: fixed;
+    right: 22px;
+    height: 50px;
+    width: 50px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+    }
